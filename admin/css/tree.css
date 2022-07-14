@@ -1,0 +1,29 @@
+/* 
+    Document   : tree
+    Created on : 30.09.2010, 7:32:01
+    Author     : RayZ
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#root {
+    display: block;
+}
+
+#categories_tree {
+	float: left;
+	width: 300px;
+}
+
+#categories_tree #tree {
+	padding-left: 5px;
+	/* background-color: #f7f7f7; */
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border: 1px solid #ccc;
+	line-height: 20px;
+	font-size: 10px;
+	/* letter-spacing:-0.03em; */
+}
+

@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /admin/
+	RewriteRule ^/admin/index\.php$ - [L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /admin/index.php [L]
+</IfModule>
+
+<ifModule mod_gzip.c>
+  mod_gzip_on On
+  mod_gzip_dechunk On
+</ifModule>
+
+<ifModule mod_expires.c>
+  ExpiresActive Off
+</ifModule>

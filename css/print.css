@@ -1,0 +1,18 @@
+.noPrint { }
+.onlyPrint { display: none; }
+
+@media print {
+	.onlyPrint {display: block;}
+
+	.noPrint,
+	.printBtn,
+	header,
+	footer,
+	.mainPageSearchbar,
+	#jivo_top_wrap {
+		display: none;
+	}
+
+	.pageWrapper { margin: 0 !important; padding: 0 !important; min-height: inherit;}
+
+}

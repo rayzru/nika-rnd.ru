@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+.fancytree-title, .fancytree-node {
+	text-overflow: ellipsis;
+}
+
+.fancytree-container {
+	border: none;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.tableRowDragging td {
+	background-color: #E5EFFD;
+}
+
+.categoryImage .thumbnail .image {
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	background: transparent none no-repeat center center;
+}
+
+.categoryImage {
+
+}
+
+.categoryImage .thumbnail a {
+	position: absolute;
+	right:10px;
+	top:10px;
+}
+
+.categoryImage .thumbnail {
+	position: relative;
+}
+
+
+.userRating {
+	font-size: 9px;
+	color: #f0c040;
+	cursor: pointer;
+}
+
+#overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #000;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+#loading {
+	width: 50px;
+	height: 57px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -28px 0 0 -25px;
+}
+
+#itemImagesContainer .thumbnail {
+	background-color: transparent;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	height: 120px;
+	width: 120px;
+}
+
+#itemImagesContainer .default {
+	background-color: orange;
+}
+
+.select2-results small {
+	color: #777;
+	float: right;
+}

@@ -1,0 +1,1 @@
+{include file="articles-form.tpl"}
